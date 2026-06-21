@@ -50,13 +50,13 @@ https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnkosten
 
 Geolocated registry of Vienna's municipal housing complexes.
 
-https://www.data.gv.at/datasets/827fb7fd-09ac-4c5f-a241-4cc35cc09366?locale=de
+other link!
 
 ### Stadt Wien – Registerzählung Wohnungen
 
 Housing statistics aggregated by Vienna's statistical districts.
 
-https://www.data.gv.at/katalog/dataset/09e70f89-cadf-4a3b-a29a-2b3f3c6cbd71
+other link!
 
 ---
 
