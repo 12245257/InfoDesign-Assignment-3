@@ -62,7 +62,23 @@ Geographic boundary dataset for Vienna's municipal districts.
 
 https://www.data.gv.at/datasets/2ee6b8bf-6292-413c-bb8b-bd22dbb2ad4b?locale=de
 
+### Wohnberatung Wien - Wiener Wohn-Ticket
+
+Eligibility rules and income limits.
+
+https://wohnberatung-wien.at/wohn-ticket/allgemeines
+
+### Deloitte - Property Index 2025
+
+Extracted average rent cost data across European capitals
+
+https://www.deloitte.com/cz-sk/en/Industries/real-estate/research/property-index.html
+
 ---
+
+
+
+###
 
 ## Project Structure
 
