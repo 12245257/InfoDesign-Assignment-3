@@ -14,7 +14,7 @@ Vienna is internationally recognized for its affordable housing system and its h
 This project tries to answer the question:
 **"For whom is Vienna actually still affordable in 2026, and who is being left out?"**
 
-Using interactive visualizations and narrative storytelling we reveal how housing affordability differs across different aggregational groups. In particular here we take Contract types, housing sectors and demographic groups into account. This should allow users to explore both the structural causes and personal implications of Viennas housing system.
+Using interactive visualizations and narrative storytelling we reveal how housing affordability differs across different aggregational groups. In particular here we take contract types, housing sectors and demographic groups into account. This should allow users to explore both the structural causes and personal implications of Viennas housing system.
 
 ---
 
@@ -22,9 +22,11 @@ Using interactive visualizations and narrative storytelling we reveal how housin
 
 - Interactive scrollytelling experience
 - Multiple coordinated visualizations using D3.js
+- Rent breakdown chart
 - Interactive map of Viennas housing landscape
 - Housing eligibility funnel
 - Personal rent calculator
+- Hover tooltips
 - Responsive web design
 
 ---
@@ -33,8 +35,10 @@ Using interactive visualizations and narrative storytelling we reveal how housin
 
 The technologies and libraries used for the project will be documented as the implementation progresses. Examples below:
 - HTML
+- CSS
 - JavaScript
 - D3.js
+- Scrollama
 
 ---
 
@@ -58,6 +62,12 @@ Housing statistics aggregated by Vienna's statistical districts.
 
 other link!
 
+### District boundaries - codeforgermany/click_that_hood
+
+Simplied representation of Vienna's district boundaries
+
+https://github.com/codeforgermany/click_that_hood
+
 ---
 
 ## Project Structure
@@ -76,15 +86,18 @@ InfoDesign Assignment 3/
 │   │   └── styles.css
 │   │
 │   ├── js/
+|   |   ├── config.js
 │   │   ├── main.js
-│   │   ├── view1-introduction.js
-│   │   ├── view2-average rent.js
-│   │   ├── view3-two viennas.js
-│   │   ├── view4-map.js
-│   │   ├── view5-eligibility.js
-│   │   └── view6-calculator.js
+│   │   ├── scene-average.js
+│   │   ├── scene-breakdown.js
+│   │   ├── scene-map.js
+│   │   ├── scene-funnel.js
+│   │   └── scene-calculator.js
 │   │
-│   └── add ons/
+│   └── vendor/
+|   |   ├── d3.v7.min.js
+│   │   ├── scrollama.min.js
+│   │   └── scene-calculator.js
 │
 ├── index.html
 ├── README.md
@@ -100,4 +113,4 @@ The contribution statement will be completed upon final submission and will desc
 
 ## AI Usage Disclosure
 
-None
+Debugging
