@@ -1,0 +1,329 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "gsp:asWKT": "WGS84: POLYGON ((16.577511 48.322571, 16.18218 48.117668))",
+            "http://www.w3.org/2003/01/geo/wgs84_pos#locationName": "Wien",
+            "@type": "dct:Location"
+        },
+        {
+            "@id": "https://www.wien.gv.at/gogv/l9ogdvie404",
+            "@type": "rdfs:Resource"
+        },
+        {
+            "@id": "http://publications.europa.eu/resource/authority/language/DEU",
+            "@type": "dct:LinguisticSystem"
+        },
+        {
+            "@id": "https://www.data.gv.at/katalog/distributions/de534f60-c866-48cb-a73c-42b103f0dd44",
+            "@type": "dcat:Distribution",
+            "dct:title": {
+                "@language": "de",
+                "@value": "Registerzählung 2022 - Zählbezirke Wien (4)"
+            },
+            "dct:accessService": {
+                "@id": "_:b1"
+            },
+            "dct:identifier": "https://www.data.gv.at/katalog/distribution/df9326ef-9732-3d1b-b4a0-395b1fa89655",
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/deed.de"
+            },
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+            },
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            },
+            "dct:rights": {
+                "@id": "_:b2"
+            },
+            "dcat:accessURL": {
+                "@id": "https://go.gv.at/l9ogdvie4042022"
+            }
+        },
+        {
+            "@id": "_:b1",
+            "dct:title": {
+                "@language": "de",
+                "@value": "Registerzählung 2022 - Zählbezirke Wien (4)"
+            },
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            },
+            "dcat:endpointURL": {
+                "@id": "https://go.gv.at/l9ogdvie4042022"
+            }
+        },
+        {
+            "@id": "https://creativecommons.org/licenses/by/4.0/deed.de",
+            "@type": "dct:LicenseDocument"
+        },
+        {
+            "@id": "http://publications.europa.eu/resource/authority/file-type/CSV",
+            "@type": "dct:MediaTypeOrExtent"
+        },
+        {
+            "@id": "_:b2",
+            "@type": "dct:RightsStatement",
+            "odrs:attributionText": "Datenquelle: Stadt Wien - https://data.wien.gv.at"
+        },
+        {
+            "@id": "https://go.gv.at/l9ogdvie4042022",
+            "@type": "rdfs:Resource"
+        },
+        {
+            "@id": "_:b3",
+            "odrs:attributionText": "Datenquelle: Stadt Wien - https://data.wien.gv.at",
+            "@type": "dct:RightsStatement"
+        },
+        {
+            "@id": "https://www.data.gv.at/katalog/distributions/fc520fe4-36cd-40df-ae7a-28444733cb39",
+            "dct:identifier": "https://www.data.gv.at/katalog/distribution/2c409710-33f3-34b5-b2ee-47c6fa58bfd9",
+            "dct:title": {
+                "@language": "de",
+                "@value": "Registerzählung 2021 - Zählbezirke Wien (4)"
+            },
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+            },
+            "@type": "dcat:Distribution",
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/deed.de"
+            },
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            },
+            "dcat:accessURL": {
+                "@id": "https://www.wien.gv.at/gogv/l9ogdvie4042021"
+            },
+            "dct:accessService": {
+                "@id": "_:b4"
+            },
+            "dct:rights": {
+                "@id": "_:b5"
+            }
+        },
+        {
+            "@id": "https://www.wien.gv.at/gogv/l9ogdvie4042021",
+            "@type": "rdfs:Resource"
+        },
+        {
+            "@id": "_:b4",
+            "dct:title": {
+                "@language": "de",
+                "@value": "Registerzählung 2021 - Zählbezirke Wien (4)"
+            },
+            "dcat:endpointURL": {
+                "@id": "https://www.wien.gv.at/gogv/l9ogdvie4042021"
+            },
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            }
+        },
+        {
+            "@id": "_:b5",
+            "@type": "dct:RightsStatement",
+            "odrs:attributionText": "Datenquelle: Stadt Wien - https://data.wien.gv.at"
+        },
+        {
+            "@id": "_:b6",
+            "@type": "dct:ProvenanceStatement",
+            "rdfs:label": "Die Bundesanstalt Statistik Österreich stellt den landesstatistischen Diensten für das jeweilige Bundesland anonymisierte Individualdaten aus der Registerzählung zur Verfügung. Die Überlassung der jeweiligen Bundesland-Daten erfolgt als Leistung des Bundes im Rahmen der Vereinbarung nach Art. 15a B-VG. Die Merkmale, deren Gliederungen sowie deren Definitionen orientieren sich an den Empfehlungen der UNECE für Volks- und Wohnungszählungen, den CES Recommendations.\n\nDer Datensatz stammt von Statistik Austria und wurde von der MA 23 aufbereitet. Die Registerzählung ist eine Vollerhebung der gesamten österreichischen Bevölkerung (Volkszählung) und ihrer Merkmale, sowie der Unternehmen, Arbeitsstätten, Gebäude und Wohnungen zum Stichtag 31. Oktober. Die Merkmale der Statistik werden nicht über Fragebögen bei den Personen selbst erhoben, sondern ausschließlich aus Verwaltungsregistern entnommen. Als Grundlage für die Gebäude- und Wohnungszählung dient das Gebäude- und Wohnungsregister (GWR) der Statistik Austria."
+        },
+        {
+            "@id": "_:b7",
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            },
+            "dcat:endpointURL": {
+                "@id": "https://go.gv.at/l9ogdvie4042023"
+            },
+            "dct:title": {
+                "@language": "de",
+                "@value": "Registerzählung 2023 - Zählbezirke Wien (4)"
+            }
+        },
+        {
+            "@id": "https://go.gv.at/l9ogdvie4042023",
+            "@type": "rdfs:Resource"
+        },
+        {
+            "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+            "@type": "dct:Frequency"
+        },
+        {
+            "@id": "_:b8",
+            "@type": "vcard:Kind",
+            "vcard:hasURL": {
+                "@id": "https://www.wien.gv.at/kontakte/ma23/index.html"
+            },
+            "vcard:fn": "Magistrat Wien - Magistratsabteilung 23 - Wirtschaft, Arbeit und Statistik",
+            "vcard:hasEmail": "post@ma23.wien.gv.at"
+        },
+        {
+            "@id": "_:b9",
+            "dct:title": {
+                "@language": "de",
+                "@value": "VIE-Registerzählung 2011 - Wiener Zählbezirke (4)"
+            },
+            "dcat:endpointURL": {
+                "@id": "https://www.wien.gv.at/gogv/l9ogdvie404"
+            },
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            }
+        },
+        {
+            "@id": "https://www.data.gv.at/katalog/distributions/f4432012-0a2a-4e15-a93b-4b03a3369092",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+            },
+            "dct:accessService": {
+                "@id": "_:b7"
+            },
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/deed.de"
+            },
+            "@type": "dcat:Distribution",
+            "dct:identifier": "https://www.data.gv.at/katalog/distribution/6527e95b-6dcf-35db-bd60-e6a3f7a342fe",
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            },
+            "dct:title": {
+                "@language": "de",
+                "@value": "Registerzählung 2023 - Zählbezirke Wien (4)"
+            },
+            "dct:rights": {
+                "@id": "_:b10"
+            },
+            "dcat:accessURL": {
+                "@id": "https://go.gv.at/l9ogdvie4042023"
+            }
+        },
+        {
+            "@id": "_:b10",
+            "@type": "dct:RightsStatement",
+            "odrs:attributionText": "Datenquelle: Stadt Wien - https://data.wien.gv.at"
+        },
+        {
+            "@id": "https://www.data.gv.at/katalog/datasets/09e70f89-cadf-4a3b-a29a-2b3f3c6cbd71",
+            "dcat:distribution": [
+                {
+                    "@id": "https://www.data.gv.at/katalog/distributions/de534f60-c866-48cb-a73c-42b103f0dd44"
+                },
+                {
+                    "@id": "https://www.data.gv.at/katalog/distributions/f982ba8f-ff18-41a3-a75c-8ca4f919c148"
+                },
+                {
+                    "@id": "https://www.data.gv.at/katalog/distributions/f4432012-0a2a-4e15-a93b-4b03a3369092"
+                },
+                {
+                    "@id": "https://www.data.gv.at/katalog/distributions/fc520fe4-36cd-40df-ae7a-28444733cb39"
+                }
+            ],
+            "dct:title": {
+                "@language": "de",
+                "@value": "Registerzählung (4) - Wohnungen - Zählbezirke Wien"
+            },
+            "dcat:theme": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+            },
+            "dcat:keyword": [
+                "Wohnungen",
+                "Zensus"
+            ],
+            "dct:publisher": {
+                "@id": "_:b11"
+            },
+            "dcat:contactPoint": {
+                "@id": "_:b8"
+            },
+            "@type": "dcat:Dataset",
+            "dct:language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+            },
+            "dct:modified": "2025-11-20",
+            "dct:identifier": "09e70f89-cadf-4a3b-a29a-2b3f3c6cbd71",
+            "dct:provenance": {
+                "@id": "_:b6"
+            },
+            "dct:spatial": {
+                "@id": "_:b0"
+            },
+            "dct:accrualPeriodicity": {
+                "@id": "http://publications.europa.eu/resource/authority/frequency/IRREG"
+            },
+            "dct:temporal": {
+                "@id": "_:b12"
+            },
+            "dct:description": {
+                "@language": "de",
+                "@value": "Wohnungen in den 250 Wiener Zählbezirken 2011, 2021, 2022, 2023"
+            }
+        },
+        {
+            "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "SOCI"
+        },
+        {
+            "@id": "_:b11",
+            "foaf:mbox": {
+                "@id": "mailto:open@post.wien.gv.at"
+            },
+            "foaf:name": "Stadt Wien",
+            "foaf:homepage": {
+                "@id": "https://digitales.wien.gv.at"
+            }
+        },
+        {
+            "@id": "https://www.data.gv.at/katalog/distributions/f982ba8f-ff18-41a3-a75c-8ca4f919c148",
+            "dct:identifier": "https://www.data.gv.at/katalog/distribution/38dbfea8-e3de-3f9e-9cec-56bdd9140f09",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+            },
+            "dct:accessService": {
+                "@id": "_:b9"
+            },
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/deed.de"
+            },
+            "dcat:accessURL": {
+                "@id": "https://www.wien.gv.at/gogv/l9ogdvie404"
+            },
+            "@type": "dcat:Distribution",
+            "dct:title": {
+                "@language": "de",
+                "@value": "VIE-Registerzählung 2011 - Wiener Zählbezirke (4)"
+            },
+            "dct:description": {
+                "@language": "de",
+                "@value": "NUTS1 | NUTS-1-Region (Gruppe von Bundesländern)\nNUTS2 | NUTS-2-Region (Bundesland)\nNUTS3 | NUTS-3-Region (Gruppe von Bezirken) \nDISTRICT_CODE | Gemeindebezirkskennzahl\nSUB_DISTRICT_CODE | Zählbezirkskennzahl\nWHG_TOTAL | Wohnungen insgesamt\nWHG_WSA_1 | Hauptwohnsitzangabe\nWHG_WSA_0 | Ohne Hauptwohnsitzangabe\nWHG_NOC_0 | Entfällt\nWHG_NOC_1 | 1 Person\nWHG_NOC_2 | 2 Personen\nWHG_NOC_3 | 3 bis 5 Personen\nWHG_NOC_4 | 6 und mehr Personen\nWHG_RECHTSVERH_1 | Eigenbenützung durch Gebäudeeigentümerin, -eigentümer\nWHG_RECHTSVERH_2 | Wohnungseigentum\nWHG_RECHTSVERH_3 | Hauptmiete\nWHG_RECHTSVERH_4 | Sonstiges Rechtsverhältnis\nWHG_NOR_1 | 1 Raum\nWHG_NOR_2 | 2 Räume\nWHG_NOR_3 | 3 bis 5 Räume\nWHG_NOR_4 | 6 und mehr Räume\nWHG_NTZFL_1 | Bis 45 qm\nWHG_NTZFL_2 | 45 bis unter 60 qm\nWHG_NTZFL_3 | 60 bis unter 90 qm\nWHG_NTZFL_4 | 90 bis unter 130 qm\nWHG_NTZFL_5 | 130 qm und mehr\nWHG_BEHEIZ_1 | Zentralheizung\nWHG_BEHEIZ_0 | Keine Zentralheizung\nWHG_BAD_1 | Eingebaute Badewanne oder Dusche in der Wohnung\nWHG_BAD_0 | Keine eingebaute Badewanne oder Dusche in der Wohnung\nWHG_TOI_1 | Toilette mit Wasserspülung in der Wohnung\nWHG_TOI_0 | Keine Toilette mit Wasserspülung in der Wohnung\nWHG_WSS_1 | Fließendes Wasser in der Wohnung\nWHG_WSS_0 | Kein fließendes Wasser in der Wohnung\nWHG_AUSST_1 | Zentralheizung u.ä., Bad/Dusche, WC in der Wohnung („A“)\nWHG_AUSST_2 | Bad/Dusche, WC in der Wohnung („B“)\nWHG_AUSST_3 | WC und Wasserentnahme in der Wohnung („C“)\nWHG_AUSST_4 | Kein WC oder keine Wasserentnahme in der Wohnung („D“)\nOBJ_TYP_1 | Wohngebäude mit einer Wohnung\nOBJ_TYP_2 | Wohngebäude mit zwei Wohnungen\nOBJ_TYP_3 | Wohngebäude mit drei und mehr Wohnungen\nOBJ_TYP_4 | Gebäude für Gemeinschaften\nOBJ_TYP_5 | Nichtwohngebäude\nOBJ_EIGENT_1 | Privatperson(en)\nOBJ_EIGENT_2 | Körperschaften öffentlichen Rechts\nOBJ_EIGENT_3 | Gemeinnützige Bauvereinigungen\nOBJ_EIGENT_4 | Sonstige juristische Person\nOBJ_BAUP_1 | Vor 1919\nOBJ_BAUP_2 | 1919 bis 1944\nOBJ_BAUP_3 | 1945 bis 1960\nOBJ_BAUP_4 | 1961 bis 1970\nOBJ_BAUP_5 | 1971 bis 1980\nOBJ_BAUP_6 | 1981 bis 1990\nOBJ_BAUP_7 | 1991 bis 2000\nOBJ_BAUP_8 | 2001 bis 2005\nOBJ_BAUP_9 | 2006 und später (ab regz 2022: 2006 bis 2011)\nOBJ_BAUP_10 | 2012 und später\nOBJ_ANZWHG_1 | 1 Wohnung\nOBJ_ANZWHG_2 | 2 Wohnungen\nOBJ_ANZWHG_3 | 3 bis 5 Wohnungen\nOBJ_ANZWHG_4 | 6 bis 10 Wohnungen\nOBJ_ANZWHG_5 | 11 bis 20 Wohnungen\nOBJ_ANZWHG_6 | 21 und mehr Wohnungen\nREF_DATE | Referenzdatum"
+            },
+            "dct:rights": {
+                "@id": "_:b3"
+            }
+        },
+        {
+            "@id": "_:b12",
+            "@type": "dct:PeriodOfTime",
+            "dcat:startDate": "2011-10-31",
+            "dcat:endDate": "2023-10-31"
+        }
+    ],
+    "@context": {
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "gsp": "http://www.opengis.net/ont/geosparql#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+    }
+}
