@@ -104,16 +104,7 @@ InfoDesign Assignment 3/
 │   ├── rentsVienna template.CSV
 │   └── rentsWholeAustriaAftersocialReasons.CSV
 │
-├── data/
-|   ├── breakdown.json
-│   ├── calc.json
-|   ├── cities.json
-│   ├── districts.geojson
-|   ├── funnel.json
-│   ├── gemeindebau_points.json
-│   └── meta.json
-│
-├── data/
+├── css/
 │   └── styles.css
 |
 ├── js/
@@ -128,12 +119,28 @@ InfoDesign Assignment 3/
 ├── vendor/
 |   ├── d3.v7.min.js
 │   ├── scrollama.min.js
-│   └── scene-calculator.js
+│   └── proj4.js
 │
 ├── index.html
 ├── README.md
 └── .gitignore
 ```
+---
+
+## Running it locally
+
+The app is plain HTML/CSS/JS with no build step — the browser loads the
+`cleanedData/` files directly. Because it reads them with `fetch`, it must be
+served over HTTP (opening `index.html` from disk will fail on those requests):
+
+```bash
+# from the repository root
+python3 -m http.server 8000
+# then open http://localhost:8000
+```
+
+Any static server works (`npx serve`, the VS Code Live Server extension, etc.).
+
 ---
 
 ## Contribution Statement
