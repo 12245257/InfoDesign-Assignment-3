@@ -1,0 +1,71 @@
+Tabelle 1.22: Durchschnittliche Wohnkosten von Hauptmietwohnungen – Wien;;;;;;;;;
+Merkmal;"Hauptmiet-wohnungen1
+in 1 000";"Miete mit
+Betriebskosten in Euro";;"Miete ohne
+Betriebskosten in Euro";;"Betriebskosten
+in Euro";;"Betriebs-
+kosten-
+anteil an
+der Miete";"Garagen-/
+Abstell-
+platzkosten
+in Euro
+pro Wohnung"
+;;pro Wohnung;pro m²;pro Wohnung;pro m²;pro Wohnung;pro m²;;
+;;Ø;;;;;;in %;Ø
+Insgesamt;748,8;694,3;10,6;519,9;7,9;176,3;2,7;28,9;72,2
+Rechtsverhältnis;;;;;;;;;
+Gemeindewohnung;199,1;496,4;8,4;326,8;5,5;171,8;2,9;36,2;-45,8
+Genossenschaftswohnung;215,9;642,5;9;468,2;6,5;175,4;2,5;28,9;73,6
+andere Hauptmiete ;333,8;846;12,9;668,6;10,2;179,5;2,7;24,6;76,3
+Gemeindegrößenklasse;;;;;;;;;
+Wien;748,8;694,3;10,6;519,9;7,9;176,3;2,7;28,9;72,2
+andere Gemeinden > 100 000 Einw.;-;-;-;-;-;-;-;-;-
+Gemeinden > 10 000 u. ? 100 000 Einw.;-;-;-;-;-;-;-;-;-
+Gemeinden ? 10 000 Einw.;-;-;-;-;-;-;-;-;-
+Bauperiode;;;;;;;;;
+vor 1919;202,4;762,4;11;582,2;8,4;182,7;2,7;28,1;(X)
+1919 bis 1944;71,3;518,4;8,8;362,1;6,1;159,3;2,8;34,6;(X)
+1945 bis 1960;90,7;547,3;9,5;386,3;6,7;163,8;2,9;32,9;(X)
+1961 bis 1970;99,1;587,1;9,4;415,6;6,7;172,6;2,8;32,2;57,2
+1971 bis 1980;66,8;658,1;9,2;465,9;6,5;193,1;2,7;31,8;51,7
+1981 bis 1990;45,8;668,7;9,1;475,8;6,5;194,6;2,6;30,3;71,6
+1991 bis 2000;20,9;699,5;10,3;512,1;7,6;187,4;2,7;28,7;-76,9
+2001 bis 2010;39,7;800;11,1;626,2;8,7;175,8;2,5;23,9;81,4
+2011 und später;112,2;890,6;14;722,1;11,4;169,2;2,7;20,4;90,5
+Ausstattungskategorie;;;;;;;;;
+Kategorie A;703;713;10,7;535,4;8;179,3;2,7;28,5;72,2
+Kategorie B;32,9;468,2;9,4;329,5;6,8;143,1;2,7;33,6;(X)
+Kategorie C;(X);(X);(X);(X);(X);(X);(X);(X);-
+Kategorie D;11,8;239,1;6,6;149;4,2;90,6;2,4;41,5;-
+Haushaltsgröße;;;;;;;;;
+1 Person;348,7;571,4;10,5;421,9;7,8;151,4;2,7;29,7;60,1
+2 Personen;208,6;741,6;10,7;557,4;8;185,6;2,7;29,1;77
+3 Personen;88,1;804,2;10,5;602,7;7,8;203,1;2,7;28;78,2
+4 Personen;59,8;903,9;10,6;691,2;8;215,3;2,7;26,9;80,8
+5 und mehr Personen;43,6;942,3;10,7;723,3;8,1;222,2;2,6;26,6;-81,3
+Familienhaushalte;;;;;;;;;
+Einfamilienhaushalte;357,6;801;10,6;603,2;7,9;199,3;2,7;28,4;78,6
+(Ehe-)Paar ohne Kind(-er);152,7;754,4;10,6;565,9;7,9;189,4;2,7;29,1;77,8
+(Ehe-)Paar mit Kind(-ern);146,2;866,2;10,6;656,8;7,9;211,7;2,7;27,4;78,7
+Vater mit Kind(-ern);-7,7;-790,3;-10,8;-602,3;-8,3;-192,7;-2,5;-26,6;(X)
+Mutter mit Kind(-ern);51,1;754,9;10,4;561,6;7,6;194,8;2,8;29,6;-81,8
+Mehrfamilienhaushalte;-6,3;-875,2;-9,6;-661,3;-7;-213,9;-2,6;-29,3;(X)
+Nichtfamilienhaushalte;;;;;;;;;
+Einpersonenhaushalte;348,7;571,4;10,5;421,9;7,8;151,4;2,7;29,7;60,1
+bis unter 30 Jahre;57,1;595,3;13;459,7;10,1;137,1;2,9;25,3;(X)
+30 bis unter 60 Jahre;161;609;11,4;463,9;8,7;147,5;2,8;27;65,6
+60 und mehr Jahre;130,6;514,5;8,4;353,5;5,7;162,4;2,6;34,9;52,2
+Mehrpersonen-Nichtfamilienhaushalte;36,2;794,2;11,5;617,3;8,8;180,6;2,7;26,4;(X)
+Mietvertragsdauer2;;;;;;;;;
+bis unter 2 Jahre;150,3;844,9;13,7;675,6;10,9;170,9;2,8;22,4;71,7
+2 bis unter 5 Jahre;169,8;800,3;12,6;630,2;9,8;172,7;2,8;24;82
+5 bis unter 10 Jahre;107,6;717,4;10,7;541,4;8;177,9;2,7;27;81,3
+10 bis unter 20 Jahre;134,1;631,4;9,3;454,4;6,6;178,1;2,7;30,6;72,5
+20 bis unter 30 Jahre;92;536,4;7,8;359,3;5,2;178,7;2,7;35,9;63,6
+30 Jahre und länger;95,1;482,6;6,5;300,4;4;184,3;2,5;41,2;50,6
+Befristung des Mietvertrags;;;;;;;;;
+befristet;147,2;943,5;15,1;771,3;12,3;174,3;2,8;20,1;78,9
+unbefristet;601,7;633,4;9,5;458,5;6,8;176,8;2,7;31,1;71
+"Q: STATISTIK AUSTRIA, Mikrozensus. 
+1) Anzahl der Hauptmietwohnungen mit Nettomiete > 0 Euro. – 2) Ohne Wohnungen mit unbekannter Mietvertragsdauer.";;;;;;;;;

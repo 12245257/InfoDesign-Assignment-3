@@ -1,0 +1,33 @@
+{
+  "rent_per_m2": {
+    "municipal_housing": 8.4,
+    "cooperative_housing": 9.0,
+    "private_rental": 12.9
+  },
+
+  "size_presets": [
+    {
+      "label": "Student Apartment",
+      "sqm": 20
+    },
+    {
+      "label": "2 Room Apartment",
+      "sqm": 40
+    },
+    {
+      "label": "Family Apartment",
+      "sqm": 60
+    },
+    {
+      "label": "Large Family Apartment",
+      "sqm": 100
+    }
+  ],
+
+  "slider": {
+    "min": 20,
+    "max": 150,
+    "default": 40,
+    "step": 1
+  }
+}
