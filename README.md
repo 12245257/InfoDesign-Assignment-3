@@ -104,9 +104,18 @@ InfoDesign Assignment 3/
 │   ├── rentsVienna template.CSV
 │   └── rentsWholeAustriaAftersocialReasons.CSV
 │
-├── css/
-│   └── styles.css
+├── data/
+|   ├── breakdown.json
+│   ├── calc.json
+|   ├── cities.json
+│   ├── districts.geojson
+|   ├── funnel.json
+│   ├── gemeindebau_points.json
+│   └── meta.json
 │
+├── data/
+│   └── styles.css
+|
 ├── js/
 |   ├── config.js
 │   ├── main.js
