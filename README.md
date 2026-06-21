@@ -14,7 +14,7 @@ Vienna is internationally recognized for its affordable housing system and its h
 This project tries to answer the question:
 **"For whom is Vienna actually still affordable in 2026, and who is being left out?"**
 
-Using interactive visualizations and narrative storytelling we reveal how housing affordability differs across different aggregational groups. In particular here we take contract types, housing sectors and demographic groups into account. This should allow users to explore both the structural causes and personal implications of Viennas housing system.
+Using interactive visualizations and narrative storytelling, we reveal how housing affordability differs across different aggregational groups. In particular here we take contract types, housing sectors and demographic groups into account. This should allow users to explore both the structural causes and personal implications of Viennas housing system.
 
 ---
 
@@ -50,23 +50,17 @@ Quarterly survey data on housing costs, rent levels, contract age, tenure type, 
 
 https://www.statistik.at/statistiken/bevoelkerung-und-soziales/wohnen/wohnkosten
 
-### Stadt Wien – Wohnen in Wien Gemeindebauten
+### Stadt Wien – Gemeindebau Standorte Wien
 
 Geolocated registry of Vienna's municipal housing complexes.
 
-other link!
+https://www.data.gv.at/datasets/a5987f3c-3131-4e6e-b91c-fe0756e69926?locale=de
 
-### Stadt Wien – Registerzählung Wohnungen
+### Stadt Wien – Bezirksgrenzen Wien
 
-Housing statistics aggregated by Vienna's statistical districts.
+Geographic boundary dataset for Vienna's municipal districts.
 
-other link!
-
-### District boundaries - codeforgermany/click_that_hood
-
-Simplied representation of Vienna's district boundaries
-
-https://github.com/codeforgermany/click_that_hood
+https://www.data.gv.at/datasets/2ee6b8bf-6292-413c-bb8b-bd22dbb2ad4b?locale=de
 
 ---
 
@@ -81,23 +75,22 @@ InfoDesign Assignment 3/
 │   ├── districts.json
 │   └── gemeindebau.json
 │
-├── src/
-│   ├── css/
-│   │   └── styles.css
-│   │
-│   ├── js/
-|   |   ├── config.js
-│   │   ├── main.js
-│   │   ├── scene-average.js
-│   │   ├── scene-breakdown.js
-│   │   ├── scene-map.js
-│   │   ├── scene-funnel.js
-│   │   └── scene-calculator.js
-│   │
-│   └── vendor/
-|   |   ├── d3.v7.min.js
-│   │   ├── scrollama.min.js
-│   │   └── scene-calculator.js
+├── css/
+│   └── styles.css
+│
+├── js/
+|   ├── config.js
+│   ├── main.js
+│   ├── scene-average.js
+│   ├── scene-breakdown.js
+│   ├── scene-map.js
+│   ├── scene-funnel.js
+│   └── scene-calculator.js
+│
+├── vendor/
+|   ├── d3.v7.min.js
+│   ├── scrollama.min.js
+│   └── scene-calculator.js
 │
 ├── index.html
 ├── README.md
