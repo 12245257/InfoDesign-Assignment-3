@@ -138,10 +138,25 @@ InfoDesign Assignment 3/
 
 ## Contribution Statement
 
-The contribution statement will be completed upon final submission and will describe each team member's responsibilities and implementation work.
+- Daniel Petriceanu:
+  - Web-Implementation
+  - Interaction structure & logic
+  - Scrollama scrollytelling implementation
+ 
+- Hannes Niederhauser:
+  - Data preparation & ingress
+  - Dataset cleaning/extraction
+  - D3 visualization implementation
+ 
+- Leonhard Gruber-Stadler:
+  - Documentation
+  - Visual design & layout adjustments
+  - Shared interaction logic
+
 
 ---
 
 ## AI Usage Disclosure
 
-Debugging
+Generative AI tools were used to accelerate debugging (e.g. understanding error messages) and formulating clearer comments and Git commit messages, as well as spell-checking markdown documentation.
+
