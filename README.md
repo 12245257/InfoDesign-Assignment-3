@@ -86,10 +86,23 @@ Example structure we could use, see below. Update based on actual structure we w
 ```text
 InfoDesign Assignment 3/
 │
-├── data/
-│   ├── rents.csv
-│   ├── districts.json
-│   └── gemeindebau.json
+├── rawData/
+|   ├── Bezirksgrenzen_statistic3.json
+│   ├── GemeindebautenLocation_statistic2.json
+│   └── rents_statistic1.ods
+|
+├── cleanedData/
+|   ├── View2-averageRent_DifferentEuropeanCities.CSV
+│   ├── View3-averageRent_ByType.CSV
+│   ├── View4-averageRent_ByContractDuration.CSV
+│   ├── View5a-bezirksgrenzen.json
+│   ├── View5b-gemeindebautenLocation.json
+│   └── View7-calculatorConfig.json
+|
+├── HalfcleanedData_ToDeriveViewsFrom/
+|   ├── more data for duration.CSV
+│   ├── rentsVienna template.CSV
+│   └── rentsWholeAustriaAftersocialReasons.CSV
 │
 ├── css/
 │   └── styles.css
