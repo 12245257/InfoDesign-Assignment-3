@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vienna's Housing Paradox — affordable city, unequal reality</title>
+  <meta name="description" content="An interactive scrollytelling on Vienna's two-tier rental market: who the city's famously cheap rents are actually for." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="progress"></div>
+
+  <header class="hook">
+    <svg class="hook__skyline" viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true"></svg>
+    <div class="hook__inner">
+      <div class="eyebrow">Vienna · 2026 · Information Design</div>
+      <h1>The world's most<br />liveable city.<span class="turn">But for whom?</span></h1>
+      <p class="hook__sub">Vienna's rents are famously low. Pull the average apart, and a second, far pricier city appears — the one newcomers actually live in.</p>
+    </div>
+    <div class="hook__cue">Scroll to begin
+      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+    </div>
+  </header>
+
+  <section class="band">
+    <div class="kicker">Act 1 · The headline</div>
+    <h2>It starts with one reassuring number.</h2>
+    <p>Politicians and liveability rankings love to quote it. It is real — and it is the start of the problem.</p>
+  </section>
+
+  <section class="scene" id="s-average">
+    <div class="scene__inner">
+      <div class="scene__graphic"><div class="viz" id="viz-average"></div></div>
+      <div class="scene__steps">
+        <div class="step" data-scene="average" data-step="0">
+          <div class="step__card"><span class="tag protected">The claim</span>
+            <h3>The number everyone quotes</h3>
+            <p>Across its rental stock, Vienna averages about <span class="lead">€10.6 per m²</span> a month. For a major European capital, that is remarkably cheap.</p></div>
+        </div>
+        <div class="step" data-scene="average" data-step="1">
+          <div class="step__card"><span class="tag protected">The evidence</span>
+            <h3>Cheap — by European standards</h3>
+            <p>Set beside Paris (€32), Madrid (€27), London (€24) or Berlin (€18), Vienna is the bargain of the group. This is the story the city tells about itself, and it is broadly true.</p></div>
+        </div>
+        <div class="step" data-scene="average" data-step="2">
+          <div class="step__card"><span class="tag market">The catch</span>
+            <h3>An average is a hiding place</h3>
+            <p>But one figure for two million tenants smooths over who pays what — and who can reach the cheap side at all. So let's pull it apart.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="kicker">Act 2 · The split</div>
+    <h2>One average, two Viennas.</h2>
+    <p>The same headline pools a protected, cheap city with a new-contract, market-priced one.</p>
+  </section>
+
+  <section class="scene" id="s-breakdown">
+    <div class="scene__inner">
+      <div class="scene__graphic"><div class="viz" id="viz-breakdown"></div></div>
+      <div class="scene__steps">
+        <div class="step" data-scene="breakdown" data-step="0">
+          <div class="step__card"><span class="tag">Start here</span>
+            <h3>Pull the number apart</h3>
+            <p>€10.6 is the blend. The spread underneath it depends mostly on one thing: how old your contract is.</p></div>
+        </div>
+        <div class="step" data-scene="breakdown" data-step="1">
+          <div class="step__card"><span class="tag market">Contract age</span>
+            <h3>Old leases, new leases</h3>
+            <p>A lease signed in the last two years averages <span class="lead">€13.7/m²</span>. One held 30 years or more: <span class="lead">€6.5/m²</span>. Same city, more than double the rent.</p></div>
+        </div>
+        <div class="step" data-scene="breakdown" data-step="2">
+          <div class="step__card"><span class="tag market">Housing type</span>
+            <h3>The expensive door is the private market</h3>
+            <p>A municipal flat averages <span class="lead">€8.4/m²</span>, a cooperative <span class="lead">€9.0/m²</span> — but a private lease runs <span class="lead">€12.9/m²</span>. Use the toggle to compare the two cuts.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="kicker">Act 3 · The geography</div>
+    <h2>The cheap city has an address.</h2>
+    <p>Vienna's protected stock isn't spread evenly — it sits where the city built at scale. Here are all 1,776 municipal complexes.</p>
+  </section>
+
+  <section class="scene" id="s-map">
+    <div class="scene__inner">
+      <div class="scene__graphic"><div class="viz" id="viz-map"></div></div>
+      <div class="scene__steps">
+        <div class="step" data-scene="map" data-step="0">
+          <div class="step__card"><span class="tag protected">Municipal housing</span>
+            <h3>Where the city built</h3>
+            <p>Districts shaded by the number of municipal dwellings the city owns there. The deepest green is in the outer working-class belt — Favoriten, Floridsdorf, Simmering, Donaustadt — not the wealthy core. Hover any district for its count.</p></div>
+        </div>
+        <div class="step" data-scene="map" data-step="1">
+          <div class="step__card"><span class="tag">Follow the Gemeindebau</span>
+            <h3>1,776 complexes, mapped</h3>
+            <p>Each gold dot is one municipal housing complex, sized by how many flats it holds. Together they trace a century of social building — from interwar courtyards to post-war estates on the edges.</p></div>
+        </div>
+        <div class="step" data-scene="map" data-step="2">
+          <div class="step__card"><span class="tag protected">The pattern</span>
+            <h3>The protected city is the outer city</h3>
+            <p>The districts with the most municipal housing are exactly the ones a newcomer is most likely to be priced out of on the private market. Whether the cheap city is open to you depends on which door you can use — which is the next question.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="kicker">Act 4 · The gate</div>
+    <h2>Cheap rent isn't for sale. It's allocated.</h2>
+    <p>To reach the protected city, you have to clear a sequence of conditions — and newcomers fall out early.</p>
+  </section>
+
+  <section class="scene" id="s-funnel">
+    <div class="scene__inner">
+      <div class="scene__graphic"><div class="viz" id="viz-funnel"></div></div>
+      <div class="scene__steps">
+        <div class="step" data-scene="funnel" data-step="0">
+          <div class="step__card"><span class="tag">The queue</span>
+            <h3>A line everyone starts at the back of</h3>
+            <p>Half of Vienna lives in subsidised housing — but that stock was allocated under rules you have to clear from scratch when you arrive.</p></div>
+        </div>
+        <div class="step" data-scene="funnel" data-step="1">
+          <div class="step__card"><span class="tag market">Filter 1</span>
+            <h3>Two years before you can knock</h3>
+            <p>You need two uninterrupted years of primary residence in Vienna just to register. Students and recent arrivals are out before they begin.</p></div>
+        </div>
+        <div class="step" data-scene="funnel" data-step="2">
+          <div class="step__card"><span class="tag market">Filters 2–4</span>
+            <h3>Then: status, income, a recognised need</h3>
+            <p>Eligible citizenship or residence status, income under the legal cap, and a justified housing need. Hover any stage to read its rule.</p></div>
+        </div>
+        <div class="step" data-scene="funnel" data-step="3">
+          <div class="step__card"><span class="tag market">No guarantee</span>
+            <h3>And still, no entitlement</h3>
+            <p>Even when you qualify, there is no legal right to a flat — and offers can take months. The people most likely to need cheap housing are least likely to reach it.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="kicker">Act 5 · You</div>
+    <h2>So — what's your price?</h2>
+    <p>Drop in your own situation and see which Vienna you land in.</p>
+  </section>
+  <section class="calc" id="viz-calc"></section>
+
+  <section class="closing">
+    <div class="closing__inner">
+      <h2>The average was never wrong. It was just never about you.</h2>
+      <p>Vienna's affordability is real — but it is a membership, earned through years of residence and need, not a price open to everyone. As new market-rate contracts grow as a share of the stock, the gap between insiders and outsiders widens quietly, hidden inside a single reassuring number.</p>
+      <div class="sources">
+        <h4>Data &amp; sources</h4>
+        <ul id="source-list"></ul>
+        <p class="note" id="data-note"></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="ribbon"><span class="src-label">Sources</span><span id="ribbon-text">Statistik Austria · Stadt Wien (data.gv.at) · Wohnberatung Wien</span></div>
+
+  <script src="vendor/d3.v7.min.js"></script>
+  <script src="vendor/proj4.js"></script>
+  <script src="vendor/scrollama.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/scene-average.js"></script>
+  <script src="js/scene-breakdown.js"></script>
+  <script src="js/scene-map.js"></script>
+  <script src="js/scene-funnel.js"></script>
+  <script src="js/scene-calculator.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
