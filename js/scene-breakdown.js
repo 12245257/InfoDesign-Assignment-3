@@ -60,7 +60,7 @@ window.SceneBreakdown = (function () {
       .call(d3.axisLeft(y).ticks(5).tickSize(-(dims.w - M.left - M.right)).tickFormat(""));
 
     g.selectAll(".axis-y").data([0]).join("g").attr("class", "axis axis-y").attr("transform", `translate(${M.left},0)`)
-      .call(d3.axisLeft(y).ticks(5).tickFormat((d) => "€" + d));
+      .call(d3.axisLeft(y).ticks(5).tickFormat((d) => d + "€"));
 
     const ax = g.selectAll(".axis-x").data([0]).join("g").attr("class", "axis axis-x").attr("transform", `translate(0,${dims.h - M.bottom})`)
       .call(d3.axisBottom(x).tickSize(0));
