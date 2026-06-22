@@ -17,7 +17,7 @@ window.SceneCalculator = (function () {
            <input type="range" id="r-res" min="0" max="15" step="1" value="1">
          </div>
          <div class="ctrl">
-           <label>Net household income / month <span class="val" id="c-inc">€2,600</span></label>
+           <label>Net household income / month <span class="val" id="c-inc">2,600€</span></label>
            <input type="range" id="r-inc" min="900" max="9000" step="100" value="2600">
          </div>
          <div class="ctrl">
